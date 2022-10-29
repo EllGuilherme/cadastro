@@ -1,14 +1,37 @@
+body{
+   min-width: 355px;
+    max-height: 837px;
+    background-image: url(imag.jpg);
+}
 .caixa{
     display: flex;
-    
-    margin: 0px auto;
+    margin: 100px auto;
+    right:100% auto;
+   
 }
 
 form{
-    margin:0% auto;
+    min-width: 301px;
+    border: 3px solid rgb(61, 61, 204);
+    padding: 10px;
+    margin: 0% auto;
     display: flex;
     flex-flow: column;
+    width: 23%;
+    background-color: rgba(78, 72, 72, 0.466);
 }
+
+.campo{
+    border: 2px solid;
+    min-width: none 355px;
+}
+
+.titulo{
+    
+    text-align: center;
+    color: black
+}
+
 
 
 
