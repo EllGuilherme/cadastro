@@ -1,7 +1,10 @@
 body{
+    font-weight: bolder;
+    color: rgb(218, 222, 226);
+    font-family: arial;
    min-width: 355px;
     max-height: 837px;
-    background-image: url(imag.jpg);
+    background-image: url(eee.jpg);
 }
 .caixa{
     display: flex;
@@ -12,7 +15,7 @@ body{
 
 form{
     min-width: 301px;
-    border: 3px solid rgb(61, 61, 204);
+    border: 3px solid rgb(34, 34, 59);
     padding: 10px;
     margin: 0% auto;
     display: flex;
@@ -27,10 +30,11 @@ form{
 }
 
 .titulo{
-    
+    font-family: arial;
     text-align: center;
-    color: black
+    color: rgb(219, 219, 219)
 }
+
 
 
 
